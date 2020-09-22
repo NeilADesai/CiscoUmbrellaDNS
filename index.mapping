@@ -1,0 +1,36 @@
+{
+  "_doc": {
+    "properties": {
+      "cisco.umbrella.dns.policy_identity": {
+        "type": "keyword"
+      },
+      "event.action": {
+        "type": "keyword"
+      },
+      "@timestamp": {
+        "type": "date"
+      },
+      "cisco.umbrella.dns.category": {
+        "type": "keyword"
+      },
+      "cisco.umbrella.dns.identities": {
+        "type": "keyword"
+      },
+      "destination.address": {
+        "type": "ip"
+      },
+      "dns.question.type": {
+        "type": "keyword"
+      },
+      "dns.response_code": {
+        "type": "keyword"
+      },
+      "source.address": {
+        "type": "ip"
+      },
+      "dns.question.name": {
+        "type": "keyword"
+      }
+    }
+  }
+}
